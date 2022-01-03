@@ -18,7 +18,7 @@ Criar uma aplicação back-end utilizando rest-api, que utilize todos os método
 - Listar com paginação os veiculos
 - No cadastro deverá haver consistência das marcas forcecias (o sistema só trabalha com Ford, Volkswagen, Chevrolet)
 
-###Especificação do projeto:
+### Especificação do projeto:
  - Fazer setup de uma API utilizando:
   - pilha de tecnologia informada pelo analista de RH responsavél pela vaga
 
@@ -26,7 +26,7 @@ Criar uma aplicação back-end utilizando rest-api, que utilize todos os método
 - Utilize as libs que ache necessário na implementação da sua API.
 
 Monte uma base de veículo com a sequinte estrutura:
-```json
+```
 veiculo: string,
 marca: string,
 ano: string,
@@ -36,7 +36,7 @@ created: datetime,
 updated: datetime
 ```
 
-####Endponts:
+#### Endponts:
 
 - GET /veiculos/find
 Retorna todos os veículos
